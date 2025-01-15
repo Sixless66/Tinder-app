@@ -12,7 +12,7 @@ router.get("/me", protectRoute, (req, res) => {
 	res.send({
 		success: true,
 		user: req.user,
-	});
+	}); 
 });
 
 export default router;

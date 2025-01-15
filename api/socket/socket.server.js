@@ -36,6 +36,7 @@ export const getIO = () => {
 	if (!io) {
 		throw new Error("Socket.io not initialized!");
 	}
+	console.log(io);
 	return io;
 };
 
